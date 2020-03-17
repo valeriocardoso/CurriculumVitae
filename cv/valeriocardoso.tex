@@ -1,0 +1,134 @@
+
+
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+\ifxetexorluatex
+
+  \setmainfont{Carlito}
+\else
+
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+
+\begin{document}
+\name{Valério Cardoso}
+\tagline{Lead Data Analytics | Data Scientist \& Machine Learning Engineer}
+\photo{3cm}{myself}
+\personalinfo{
+
+  \email{valeriocardoso@outlook.com.br}
+  \phone{11-9.9682-1535}
+  \location{São Paulo, Brasil}
+  \linkedin{in/valeriocardoso}
+  \github{valeriocardoso} 
+  \homepage{dev.to/valeriocardoso}
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\AtBeginEnvironment{itemize}{\small}
+
+
+\cvsection[page1sidebar]{Sobre}
+
+Possuo 4 anos de experiência no desenvolvimento de projetos de IA envolvendo 
+técnicas de Machine Learning (XGBoost, LightGBM, Random Forest, SVM) 
+e Deep Learning  (LSTM, CNN, GANS, Reinforcement Learning), 
+vivência em metodologias ágeis como Scrum e Kanban. 
+Forte conhecimento análitico e perfil orientado a resultados com ótimo relacionamento 
+interpessoal. 
+
+\cvsection[page1sidebar]{Experiências Profissionais}
+
+\cvevent{Tech Lead Data Analytics}{Trestto}{Fev 2019 -- Atualmente}{São Paulo, SP}
+\begin{itemize}
+
+\item Liderança e acompanhamento de equipes técnicas.
+
+\item Desenvolvimento de projeto machine learning ponta à ponta para compreensão de
+      linguagem natural em ligações telefônicas recebendo mensalmente 50 requisições.
+
+\item Desenvolvimento de modelos de machine learning para processamento de 
+      linguagem natural, análise de sentimentos e geração de diálogos.
+
+\item Contribui na tomada de decisão para a arquitetura de microsserviços.
+
+\item Liderei a implamentação e integração da plataforma de Machine Learning usando 
+      Kuberflow.
+       
+\item Contribui com a iniciativa de democratização dos dados implementando ferramentas
+      self service BI, como Metabase e Kibana;
+
+%
+\end{itemize}
+
+\divider
+
+\cvevent{Tech Lead \& Data Scientist}{Ituran RoadTrack}{Out 2017 - Fev 2019}{São Caetano do Sul, SP}
+\begin{itemize}
+
+\item  Como Tech Lead fui responsável em estruturar e coordenar o time de Dados
+       no qual desempenhei o papel de Data Scientist. 
+
+\item  Contribui na tomada de decisão sobre a arquitetura de Big Data.
+
+\item  Desenvolvi reports analíticos usando python e bibliotecas plot.ly, seaborn e 
+       matplotlib
+
+\item  Desenvolvimento e deploy de modelos de machine learning usando Spark 
+       e Spark Streaming.
+
+\item  Desenvolvimento de modelo de machine learning para predição de Churn.
+
+\item  Desenvolvimento de modelo de machine learning baseado em séries temporais 
+       para predição de consumo.
+
+
+
+\end{itemize}
+
+\cvsection[page1sidebar]{Hard \& Soft Skills}
+
+\cvtag{Python}
+\cvtag{POO}
+\cvtag{Machine Learning}
+\cvtag{Deep Learning}
+\cvtag{GCP}
+\cvtag{Cloud}
+\cvtag{API}
+\cvtag{Devops}
+\cvtag{Kubernetes}
+
+\divider
+
+\cvtag{Scrum}
+\cvtag{Pensamento Crítico}
+\cvtag{Proatividade}
+
+\cvsection[page1sidebar]{Languages}
+
+\cvskill{Inglês}{3}
+
+
+\clearpage
+
+\end{document}
