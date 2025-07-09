@@ -1,2 +1,2 @@
 watch:
-	typst watch cv/clean-version.typ
+	typst watch cv/valeriocardoso.typ

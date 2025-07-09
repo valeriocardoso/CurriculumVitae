@@ -31,7 +31,7 @@
 
 #work(
   title: "Senior AI Engineer",
-  location: "Sydney, Australia",
+  // location: "Sydney, Australia",
   company: "PropHero",
   dates: dates-helper(start-date: "Jun 2025", end-date: "Present"),
 )
@@ -43,7 +43,7 @@
 
 #work(
   title: "Senior Staff AI Engineer",
-  location: "São Paulo, Brazil",
+  // location: "São Paulo, Brazil",
   company: "Hvar Consulting",
   dates: dates-helper(start-date: "Aug 2023", end-date: "Jun 2025"),
 )
@@ -54,27 +54,28 @@
 - Established engineering best practices for AI application development.
 - Mentored and coached engineers in AI/ML, accelerating their development and contributions to a high-performing team.
 
-// #work(
-//   title: "Tech Lead Machine Learning Engineer",
-//   location: "São Paulo, Brazil",
-//   company: "Hvar Consulting",
-//   dates: dates-helper(start-date: "Dec 2021", end-date: "Aug 2023"),
-// )
+#work(
+  title: "Tech Lead Machine Learning Engineer",
+  // location: "São Paulo, Brazil",
+  company: "Hvar Consulting",
+  dates: dates-helper(start-date: "Dec 2021", end-date: "Aug 2023"),
+)
 
-// - Built an end-to-end machine learning pipeline for speech-to-text with sub-second latency
-// - Finetuned speech-to-text models for a call center domain, improving transcription word error rate by 30% compared with the state-of-the-art models available
-// - Communicated complex technical concepts and architectural designs to both technical and non-technical audiences, including product owners and developers.
-// - Conducted code reviews and coached engineers on machine learning concepts and best practices, improving code quality and team knowledge
+- Built an end-to-end machine learning pipeline for speech-to-text with sub-second latency
+- Finetuned speech-to-text models for a call center domain, improving transcription word error rate by 30% compared with the state-of-the-art models available
+- Communicated complex technical concepts and architectural designs to both technical and non-technical audiences, including product owners and developers.
+- Conducted code reviews and coached engineers on machine learning concepts and best practices, improving code quality and team knowledge
 
-// #work(
-//   title: "Senior Machine Learning Engineer",
-//   location: "São Paulo, Brazil",
-//   company: "Hvar Consulting",
-//   dates: dates-helper(start-date: "Jun 2020", end-date: "Dec 2021"),
-// )
+#work(
+  title: "Senior Machine Learning Engineer",
+  // location: "São Paulo, Brazil",
+  company: "Hvar Consulting",
+  dates: dates-helper(start-date: "Jun 2020", end-date: "Dec 2021"),
+)
 
-// - Implemented CI/CD pipelines and established continuous model training.
-// - Played a key role in establishing a feature store
+- Implemented CI/CD pipelines and established continuous model training.
+- Played a key role in establishing a feature store
+- Developed and deployed machine learning models for a variety of use cases, including NLP, computer vision, and time series forecasting.
 
 /*
 * Lines that start with == are formatted into section headings
